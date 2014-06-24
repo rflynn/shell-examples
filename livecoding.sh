@@ -14,7 +14,7 @@
 printf "number: "
 read number
 
-numpat=$(echo "$number" |\
+numpat=$(echo $number |\
    sed -e 's/1//g'       -e 's/2/[abc]/g' -e 's/3/[def]/g'  \
        -e 's/4/[ghi]/g'  -e 's/5/[jkl]/g' -e 's/6/[mno]/g'  \
        -e 's/7/[pqrs]/g' -e 's/8/[tuv]/g' -e 's/9/[wxyz]/g')
