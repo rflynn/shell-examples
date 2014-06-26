@@ -7,6 +7,11 @@ do
     case "$path" in
       "/yes") say=yes ;;
       "/mo") say=mo ;;
+      "/yo") say=yo ;;
+      "/shit") say=shit ;;
+      "/schnitzel") say=schnitzel ;;
+      "/twix") say=twix ;;
+      "/igor") say="Igor Belyayev" ;;
       "/favicon.ico") say=skip ;;
       *) say=no ;;
     esac;
