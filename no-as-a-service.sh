@@ -11,7 +11,7 @@ do
       "/shit") say=shit ;;
       "/schnitzel") say=schnitzel ;;
       "/twix") say=twix ;;
-      "/igor") say="Igor Belyayev" ;;
+      "/igor") say="Igor Belayev" ;;
       "/favicon.ico") say=skip ;;
       *) say=no ;;
     esac;
