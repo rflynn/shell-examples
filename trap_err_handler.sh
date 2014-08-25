@@ -23,5 +23,5 @@ err_handler() {
     exit $?
 }
 
-rm doesnotexist # do something that errors out
+ls doesnotexist # do something that errors out
 
